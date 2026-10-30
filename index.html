@@ -1,32 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Kyrtle builds practical logistics and hospitality software that simplifies operations and enables sustainable growth.">
-  <meta name="theme-color" content="#080a0f">
+  <meta name="description"
+    content="Kyrtle builds practical logistics and hospitality software that simplifies operations and enables sustainable growth.">
+  <meta name="theme-color" content="#07090e">
   <title>Kyrtle | Solve to Grow</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
+
 <body>
   <header class="site-header">
     <nav class="container" aria-label="Main navigation">
-      <a class="logo" href="#top" aria-label="Kyrtle home">kyrtle<span class="logo-mark">.</span></a>
+      <div class="nav-brand">
+        <a class="logo" href="#top" aria-label="Kyrtle home">kyrtle<span class="logo-mark">.</span></a>
+        <span class="brand-badge"><span class="badge-dot"></span>HCMC STUDIO</span>
+      </div>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#products">Products</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+      <button class="nav-cta" type="button" data-open-contact aria-label="Open contact form">
+        <span>Get in touch</span> →
+      </button>
     </nav>
   </header>
 
   <main id="top">
     <section class="hero container">
       <span class="eyebrow">Practical technology, meaningful growth</span>
-      <h1>Solve to grow.</h1>
+      <h1>Solve to Grow.</h1>
       <p class="hero-copy">
-        We turn complex business challenges into simple, practical software that helps teams work smarter, operate efficiently, and grow sustainably.
+        We turn complex business challenges into simple, practical software that helps teams work smarter, operate
+        efficiently, and grow sustainably.
       </p>
       <div class="hero-actions">
         <button class="button button-primary" type="button" data-open-contact>Contact us</button>
@@ -36,17 +51,29 @@
 
     <section id="about">
       <div class="container section-grid">
-        <p class="section-label">About Kyrtle</p>
+        <div class="section-label-col">
+          <p class="section-label">About Kyrtle</p>
+        </div>
         <div>
           <h2>We solve the right problems before building the solution.</h2>
           <p class="lead">
-            Inspired by Kim Quy, the Golden Turtle, Kyrtle stands for wisdom, resilience, and longevity. We build technology around real business needs, reducing unnecessary complexity, effort, and cost to create lasting value.
+            Inspired by Kim Quy, the Golden Turtle, Kyrtle stands for wisdom, resilience, and longevity. We build
+            technology around real business needs, reducing unnecessary complexity, effort, and cost to create lasting
+            value.
           </p>
           <div class="principles" aria-label="Our principles">
-            <span class="pill">Solve</span>
-            <span class="pill">Simplify</span>
-            <span class="pill">Optimize</span>
-            <span class="pill">Grow</span>
+            <div class="pill" data-index="01. SOLVE">
+              <span class="pill-desc">Identify the root operational bottleneck before engineering.</span>
+            </div>
+            <div class="pill" data-index="02. SIMPLIFY">
+              <span class="pill-desc">Eliminate redundant architectural layers and friction.</span>
+            </div>
+            <div class="pill" data-index="03. OPTIMIZE">
+              <span class="pill-desc">Streamline speed, precision, and automation workflows.</span>
+            </div>
+            <div class="pill" data-index="04. GROW">
+              <span class="pill-desc">Build durable digital foundations for long-term compound value.</span>
+            </div>
           </div>
         </div>
       </div>
@@ -54,7 +81,9 @@
 
     <section id="products">
       <div class="container section-grid">
-        <p class="section-label">Our Products</p>
+        <div class="section-label-col">
+          <p class="section-label">Our Products</p>
+        </div>
         <div>
           <h2>Focused software for essential operations.</h2>
           <p class="lead">
@@ -64,20 +93,44 @@
           <div class="products">
             <article class="card">
               <div>
-                <span class="card-number">01</span>
+                <div class="card-top">
+                  <span class="card-number">01</span>
+                  <span class="card-status-badge">TMS &amp; WMS Infrastructure</span>
+                </div>
                 <h3>Logistics Solutions</h3>
                 <p>Transportation and warehouse management software for connected, efficient operations.</p>
+                <div class="card-features">
+                  <span class="feature-tag">Fleet Dispatch</span>
+                  <span class="feature-tag">Warehouse Sync</span>
+                  <span class="feature-tag">Live Telemetry</span>
+                  <span class="feature-tag">Audit Trail</span>
+                </div>
               </div>
-              <a class="card-link" href="mailto:contact@kyrtle.com?subject=Logistics%20Solutions">Discuss logistics solutions →</a>
+              <div class="card-footer">
+                <a class="card-link" href="mailto:contact@kyrtle.com?subject=Logistics%20Solutions">Discuss logistics
+                  solutions →</a>
+              </div>
             </article>
 
             <article class="card">
               <div>
-                <span class="card-number">02</span>
+                <div class="card-top">
+                  <span class="card-number">02</span>
+                  <span class="card-status-badge">PMS &amp; Operations</span>
+                </div>
                 <h3>Hospitality Solutions</h3>
                 <p>Hotel and serviced apartment management software that simplifies property operations.</p>
+                <div class="card-features">
+                  <span class="feature-tag">Multi-property PMS</span>
+                  <span class="feature-tag">Digital Check-in</span>
+                  <span class="feature-tag">Operational Ledger</span>
+                  <span class="feature-tag">Guest Experience</span>
+                </div>
               </div>
-              <a class="card-link" href="mailto:contact@kyrtle.com?subject=Hospitality%20Solutions">Discuss hospitality solutions →</a>
+              <div class="card-footer">
+                <a class="card-link" href="mailto:contact@kyrtle.com?subject=Hospitality%20Solutions">Discuss
+                  hospitality solutions →</a>
+              </div>
             </article>
           </div>
         </div>
@@ -88,11 +141,15 @@
       <div class="container">
         <div class="contact-panel">
           <div>
-            <p class="section-label">Contact</p>
+            <div class="section-label-col">
+              <p class="section-label">Contact</p>
+            </div>
             <h2>Have a problem worth solving?</h2>
             <p>Tell us what is slowing your business down. We will help you find a simpler way forward.</p>
           </div>
-          <a class="button button-primary" href="mailto:contact@kyrtle.com" data-open-contact>contact@kyrtle.com</a>
+          <div class="contact-panel-actions">
+            <a class="button button-primary" href="mailto:contact@kyrtle.com" data-open-contact>contact@kyrtle.com</a>
+          </div>
         </div>
       </div>
     </section>
@@ -100,14 +157,21 @@
 
   <footer class="container">
     <span>© 2026 Kyrtle. All rights reserved.</span>
+    <ul class="footer-nav">
+      <li><a href="#about">About</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#top">Back to top ↑</a></li>
+    </ul>
     <span>Ho Chi Minh City, Vietnam</span>
   </footer>
+
   <!-- ===== Contact modal ===== -->
   <div class="contact-modal" id="contact-modal" aria-hidden="true">
     <div class="contact-dialog" role="dialog" aria-modal="true" aria-labelledby="contact-modal-title">
       <div class="contact-dialog__head">
         <div>
-          <p class="section-label">Contact us</p>
+          <p class="section-label-col">Contact us</p>
           <h2 id="contact-modal-title">Tell us what you need.</h2>
           <p class="contact-dialog__intro">Share a few details and a short description of your needs.</p>
         </div>
@@ -122,13 +186,15 @@
           </div>
           <div class="field">
             <label for="contact-company">Company</label>
-            <input id="contact-company" name="company" type="text" autocomplete="organization" placeholder="Company name">
+            <input id="contact-company" name="company" type="text" autocomplete="organization"
+              placeholder="Company name">
           </div>
         </div>
         <div class="form-row">
           <div class="field">
             <label for="contact-email">Email *</label>
-            <input id="contact-email" name="email" type="email" autocomplete="email" placeholder="you@company.com" required>
+            <input id="contact-email" name="email" type="email" autocomplete="email" placeholder="you@company.com"
+              required>
           </div>
           <div class="field">
             <label for="contact-phone">Phone</label>
@@ -137,9 +203,11 @@
         </div>
         <div class="field">
           <label for="contact-needs">How can we help? *</label>
-          <textarea id="contact-needs" name="needs" maxlength="800" placeholder="Briefly describe your business needs or the challenge you want to solve..." required></textarea>
+          <textarea id="contact-needs" name="needs" maxlength="800"
+            placeholder="Briefly describe your business needs or the challenge you want to solve..."
+            required></textarea>
         </div>
-        <p class="form-note">Fields marked with * are required.</p>
+        <p class="form-note">Fields marked with * are required. Press ESC anytime to dismiss.</p>
         <button class="button button-primary" type="submit">Send enquiry</button>
       </form>
 
@@ -151,6 +219,6 @@
   </div>
 
   <script src="assets/js/contact-modal.js" defer></script>
-
 </body>
+
 </html>
