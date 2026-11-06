@@ -6,13 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
     content="Kyrtle builds practical logistics, hospitality, and smart agricultural software that simplifies operations and enables sustainable growth.">
-  <meta name="theme-color" content="#07090e">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a1729" media="(prefers-color-scheme: dark)">
   <title>Kyrtle | Solve to Grow</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/kyrtle-mark.svg">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
@@ -21,7 +23,12 @@
   <header class="site-header">
     <nav class="container" aria-label="Main navigation">
       <div class="nav-brand">
-        <a class="logo" href="#top" aria-label="Kyrtle home">kyrtle<span class="logo-mark">.</span></a>
+        <a class="logo" href="#top" aria-label="Kyrtle home">
+          <picture>
+            <source srcset="assets/img/kyrtle-logo-inverse.png" media="(prefers-color-scheme: dark)">
+            <img class="logo-img" src="assets/img/kyrtle-logo.png" alt="Kyrtle" width="492" height="240">
+          </picture>
+        </a>
         <span class="brand-badge"><span class="badge-dot"></span>HCMC STUDIO</span>
       </div>
       <ul class="nav-links">
@@ -37,16 +44,17 @@
 
   <main id="top">
     <section class="hero container">
-      <span class="eyebrow">Practical technology, meaningful growth</span>
-      <h1>Solve to Grow.</h1>
-      <p class="hero-copy">
-        We turn complex business challenges into simple, practical software that helps teams work smarter, operate
-        efficiently, and grow sustainably.
-      </p>
-      <div class="hero-actions">
-        <button class="button button-primary" type="button" data-open-contact>Contact us</button>
-        <a class="button button-secondary" href="#products">Explore our products</a>
-      </div>
+      <div class="hero-content">
+        <span class="eyebrow">Practical technology, meaningful growth</span>
+        <h1>Solve to Grow.</h1>
+        <p class="hero-copy">
+          We turn complex business challenges into simple, practical software that helps teams work smarter, operate
+          efficiently, and grow sustainably.
+        </p>
+        <div class="hero-actions">
+          <button class="button button-primary" type="button" data-open-contact>Contact us</button>
+          <a class="button button-secondary" href="#products">Explore our products</a>
+        </div>
     </section>
 
     <section id="about">
@@ -177,7 +185,15 @@
   </main>
 
   <footer class="container">
-    <span>© 2026 Kyrtle. All rights reserved.</span>
+    <div class="footer-brand">
+      <a class="logo logo--footer" href="#top" aria-label="Kyrtle home">
+        <picture>
+          <source srcset="assets/img/kyrtle-logo-inverse.png" media="(prefers-color-scheme: dark)">
+          <img class="logo-img" src="assets/img/kyrtle-logo.png" alt="Kyrtle" width="492" height="240" loading="lazy">
+        </picture>
+      </a>
+      <span>© 2026 Kyrtle. All rights reserved.</span>
+    </div>
     <ul class="footer-nav">
       <li><a href="#about">About</a></li>
       <li><a href="#products">Products</a></li>
