@@ -177,7 +177,17 @@
             <p>Tell us what is slowing your business down. We will help you find a simpler way forward.</p>
           </div>
           <div class="contact-panel-actions">
-            <a class="button button-primary" href="mailto:contact@kyrtle.com" data-open-contact>contact@kyrtle.com</a>
+            <button class="button button-primary" type="button" data-open-contact>Get in touch</button>
+            <div class="contact-direct">
+              <a class="contact-direct-link" href="tel:+84932727941" aria-label="Call Mobile (+84) 93 272 7941">
+                <span class="contact-direct-label">Mobile</span>
+                <span class="contact-direct-value">(+84) 93 272 7941</span>
+              </a>
+              <a class="contact-direct-link" href="mailto:contact@kyrtle.com" aria-label="Send email to contact@kyrtle.com">
+                <span class="contact-direct-label">Email</span>
+                <span class="contact-direct-value">contact@kyrtle.com</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -200,7 +210,11 @@
       <li><a href="#contact">Contact</a></li>
       <li><a href="#top">Back to top ↑</a></li>
     </ul>
-    <span>Ho Chi Minh City, Vietnam</span>
+    <div class="footer-meta">
+      <a class="footer-phone" href="tel:+84932727941">(+84) 93 272 7941</a>
+      <span class="footer-divider" aria-hidden="true">•</span>
+      <span>Ho Chi Minh City, Vietnam</span>
+    </div>
   </footer>
 
   <!-- ===== Contact modal ===== -->
@@ -210,7 +224,7 @@
         <div>
           <p class="section-label-col">Contact us</p>
           <h2 id="contact-modal-title">Tell us what you need.</h2>
-          <p class="contact-dialog__intro">Share a few details and a short description of your needs.</p>
+          <p class="contact-dialog__intro">Share a few details below, or call us directly at <a href="tel:+84932727941" class="dialog-link">(+84) 93 272 7941</a>.</p>
         </div>
         <button class="modal-close" type="button" data-close-contact aria-label="Close contact form">&times;</button>
       </div>
@@ -235,7 +249,7 @@
           </div>
           <div class="field">
             <label for="contact-phone">Phone</label>
-            <input id="contact-phone" name="phone" type="tel" autocomplete="tel" placeholder="+84 ...">
+            <input id="contact-phone" name="phone" type="tel" autocomplete="tel" placeholder="(+84) 93 272 7941">
           </div>
         </div>
         <div class="field">
